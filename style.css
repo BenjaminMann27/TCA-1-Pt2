@@ -50,7 +50,7 @@ html:hover .spider {
 }
 
 .spider .body .eye.right {
-    right: 15px;
+    right: 200px;
 }
 
 .spider .body .eye:after {
@@ -63,11 +63,11 @@ html:hover .spider {
     border-radius: 50%;
 
     /* 3. Animatie */
-    animation: look 8s infinite;
+    animation: look 4s infinite;
 }
 
 .spider .legs .leg {
-    width: 80px;
+    width: 500px;
     height: 40px;
     margin-top: -20px;
     border: 5px solid transparent;
@@ -94,7 +94,7 @@ html:hover .spider {
     margin-left: 10px;
 }
 .legs.right .leg:nth-child(1){
-    transform: rotate(-10deg);
+    transform: rotate(-35deg);
     margin-left: -10px;
 }
 
@@ -110,11 +110,11 @@ html:hover .spider {
 
 
 .legs.left .leg:nth-child(3){
-    transform: rotate(-50deg);
+    transform: rotate(-70deg);
     margin-left: 30px;
 }
 .legs.right .leg:nth-child(3){
-    transform: rotate(50deg);
+    transform: rotate(20deg);
     margin-left: -30px;
 }
 
